@@ -1,7 +1,7 @@
 # Mezzio tips
 
 ### mezzio/mezzio-hal
-You are working with Doctrine and Collections and your ID column is Ben Ramsey's UUID, but a `fetch all` only renders an error similar to this?
+You are working with [Doctrine](https://github.com/doctrine) and [Paginators](https://docs.mezzio.dev/mezzio-hal/v2/doctrine/) and your ID column is [Ben Ramsey's UUID](https://github.com/ramsey/uuid), but a `fetch all` only renders an error similar to this?
 ```
 Mezzio\Router\Exception\RuntimeException: 
 Route `user.get` expects at least parameter values for [id], 
